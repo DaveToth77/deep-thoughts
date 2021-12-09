@@ -24,5 +24,8 @@
   "homepage": "https://github.com/DaveToth77/deep-thoughts#readme",
   "devDependencies": {
     "concurrently": "^6.4.0"
+  },
+  "dependencies": {
+    "graphql": "^16.1.0"
   }
 }
