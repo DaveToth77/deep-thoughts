@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const ReactionList = ({ reactions }) => {
   return (
@@ -11,7 +11,7 @@ const ReactionList = ({ reactions }) => {
         {reactions &&
           reactions.map((reaction) => (
             <p className="pill mb-3" key={reaction._id}>
-              {reaction.reactionBody} {"// "}
+              {reaction.reactionBody} //{" "}
               <Link
                 to={`/profile/${reaction.username}`}
                 style={{ fontWeight: 700 }}
