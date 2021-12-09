@@ -1,36 +1,21 @@
-import React from 'react';
+import React from "react";
 import { Redirect, useParams } from "react-router-dom";
-
+import { QUERY_USER, QUERY_ME } from "../utils/queries";
 import ThoughtList from "../components/ThoughtList";
 import FriendList from "../components/FriendList";
 import { useQuery, useMutation } from "@apollo/client";
-import { QUERY_USER, QUERY_ME } from "../utils/queries";
 import Auth from "../utils/auth";
 import { ADD_FRIEND } from "../utils/mutations";
 import ThoughtForm from "../components/ThoughtForm";
 
-
-
-
-
 const Profile = () => {
-  const { username: userParam } = useParams();
-
   const [addFriend] = useMutation(ADD_FRIEND);
+
+  const { username: userParam } = useParams();
 
   const { loading, data } = useQuery(userParam ? QUERY_USER : QUERY_ME, {
     variables: { username: userParam },
   });
-
-  const handleClick = async () => {
-    try {
-      await addFriend({
-        variables: { id: user._id },
-      });
-    } catch (e) {
-      console.error(e);
-    }
-  };
 
   const user = data?.me || data?.user || {};
 
@@ -52,7 +37,15 @@ const Profile = () => {
     );
   }
 
-
+  const handleClick = async () => {
+    try {
+      await addFriend({
+        variables: { id: user._id },
+      });
+    } catch (e) {
+      console.error(e);
+    }
+  };
 
   return (
     <div>
@@ -66,7 +59,8 @@ const Profile = () => {
             Add Friend
           </button>
         )}
-      </div>{" "}
+      </div>
+
       <div className="flex-row justify-space-between mb-3">
         <div className="col-12 mb-3 col-lg-8">
           <ThoughtList
