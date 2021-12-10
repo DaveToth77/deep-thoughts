@@ -41,6 +41,17 @@ MERN stack social network SPA utilizing react router, GraphQL and JWT (JSON Web 
     browse to http://localhost:3000/
     browse to http://localhost:3001/graphql/
     
+    ![Screen Shot 2021-12-09 at 1 00 38 PM](https://user-images.githubusercontent.com/85111342/145500363-a9602299-a646-4068-900c-c81e2dbe1070.png)
+
+    ![Screen Shot 2021-12-09 at 1 01 06 PM](https://user-images.githubusercontent.com/85111342/145500380-29b48e6b-e094-4ed9-b598-bcd588be6ad1.png)
+    
+    ![Screen Shot 2021-12-09 at 1 03 35 PM](https://user-images.githubusercontent.com/85111342/145500399-3669bbca-50d8-49c4-b66b-0d3d56135840.png)
+    
+    ![Screen Shot 2021-12-09 at 1 03 53 PM](https://user-images.githubusercontent.com/85111342/145500410-ad9a178b-2694-4e9f-a9a0-d3ff0af45b6a.png)
+
+
+
+    
 ## Questions
 
 - [Github](https://github.com/davetoth77 "davetoth77")
