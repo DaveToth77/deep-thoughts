@@ -12,16 +12,6 @@
 
 MERN stack social network SPA utilizing react router, GraphQL and JWT (JSON Web Token) authentication. The backend application is deployed live @Heroku utilizing MongoDB Atlas.
 
-#### Issues
-
-- [x] [Set up GraphQL queries](https://github.com/MBrassey/deep-thoughts/issues/1)
-- [x] [Set up mutations and JWT logic](https://github.com/MBrassey/deep-thoughts/issues/2)
-- [x] [Implement client-side GraphQL query for homepage data](https://github.com/MBrassey/deep-thoughts/issues/3)
-- [x] [Implement GraphQL queries and navigation for other pages](https://github.com/MBrassey/deep-thoughts/issues/4)
-- [x] [Client-side login/sign up](https://github.com/MBrassey/deep-thoughts/issues/5)
-- [x] [Implement user-based mutations](https://github.com/MBrassey/deep-thoughts/issues/6)
-- [x] [Finish up & Deploy](https://github.com/MBrassey/deep-thoughts/issues/7)
-- [x] [Create Readme](https://github.com/MBrassey/deep-thoughts/issues/8)
 
 #### Requirements
 
